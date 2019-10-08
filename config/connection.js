@@ -33,11 +33,11 @@ module.exports = connection;
 
 //Create Connection to database with Sequelize
 
-var sequelize = new Sequelize("blogger", "root", process.env.DB_PASS, {
-  host: "localhost",
-  port: 3306,
-  dialect: "mysql"
-});
+// var sequelize = new Sequelize("blogger", "root", process.env.DB_PASS, {
+//   host: "localhost",
+//   port: 3306,
+//   dialect: "mysql"
+// });
 
 //export object
 module.exports = sequelize;
