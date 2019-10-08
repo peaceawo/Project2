@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="/public/styles/styles.css" type="text/ejs" />
+</head>
+</head>
+
+<body>
+  <!-- <div class="w3-container">  -->
+
+  <div class="navbar">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Trips</a>
+        <ul id="nav-mobile" class="right">
+          <li id=profileBtn><a href="/dashboard">My Profile</a></li>
+          <!-- <li id=loginBtn><a href="/users/login">Login</a></li> -->
+          <li id=logoutBtn><a href="/users/logout">Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <ul class="collapsible">
+    <li>
+      <div class="collapsible-header">
+        <i class="material-icons">filter_drama</i>Japan!
+      </div>
+      <div class="collapsible-body"><span class="japan"></span></div>
+    </li>
+    <li>
+      <div class="collapsible-header">
+        <i class="material-icons">place</i>Germany!
+      </div>
+      <div class="collapsible-body"><span class="germany"></span></div>
+    </li>
+    <li>
+      <div class="collapsible-header">
+        <i class="material-icons">whatshot</i>Australia!
+      </div>
+      <div class="collapsible-body"><span class="australia"></span></div>
+    </li>
+
+    <li>
+      <div class="collapsible-header">
+        <i class="material-icons">whatshot</i>USA!
+      </div>
+      <div class="collapsible-body"><span class="usa"></span></div>
+    </li>
+
+    <li>
+      <div class="collapsible-header">
+        <i class="material-icons">whatshot</i>Other Countries
+      </div>
+      <div class="collapsible-body"><span class="other"></span></div>
+    </li>
+
+  </ul>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.0/moment.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/views/js/allTrips.js" type="text/javascript"></script>
+</body>
+
+</html>
